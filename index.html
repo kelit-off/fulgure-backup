@@ -7,12 +7,24 @@
     <title>Fulgure</title>
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <img src="./logo_fulgure.png" class="logo">
+  <body>  
     <div class="container">
+      <div class="text-acceuil">
+        <h2>Fulgure <span class="animation"></span></h2>
+      </div>
       <form action="https://google.com/search" method="get" class="bar-recherche">
         <input type="text" placeholder="Fait ta recherche" name="q">
       </form>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed('.animation', {
+  strings: ['Performant', 'Ultra Rapide'],
+        typeSpeed:50,
+        backSpeed:50,
+        loop:true
+});
+    </script>
   </body>
 </html>
