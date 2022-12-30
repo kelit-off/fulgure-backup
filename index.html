@@ -1,30 +1,17 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100dsplay=swap" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./metasearch.php"></script>
     <title>Fulgure</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>  
-    <div class="container">
-      <div class="text-acceuil">
-        <h2>Fulgure <span class="animation"></span></h2>
-      </div>
-      <form action="https://google.com/search" method="get" class="bar-recherche">
-        <input type="text" placeholder="Fais ta recherche avec Fulgure" name="q">
-      </form>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script>
-      var typed = new Typed('.animation', {
-  strings: ['Nouveau', 'Ultra Rapide'],
-        typeSpeed:50,
-        backSpeed:50,
-        loop:true
-});
-    </script>
-  </body>
+</head>
+<body>
+    <form action="metasearch.php" method="get">
+        <label for="search">Recherche :</label>
+        <input type="text" id="search" name="search">
+        <input type="submit" value="Envoyer">
+    </form>
+</body>
 </html>
