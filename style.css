@@ -26,8 +26,8 @@
 
 .container{
     position: fixed;
-    left: 20%;
-    top: 40%;
+    left: 0%;
+    top: 0%;
     width: 100%;
     min-height: 100vh;
     padding: 5%;
